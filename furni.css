@@ -1,0 +1,1046 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 251, 251);
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 33%;
+    padding-left: 15%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Gill Sans', sans-serif;
+}
+nav{
+   width: 33%;
+   padding: 0px 40px;
+   
+} 
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 14px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    
+}   
+
+.login{
+    width: 34%;
+    padding-left: 15%;
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 500;
+    transition: all ease 0.8s;
+    font-size: 14px;
+    
+}
+
+a:hover{
+    color: skyblue;
+}
+header i{
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 2vw;
+    display: none;
+}
+
+.image{
+    width: 100%;
+    height: 80%;
+    background: url(./furnitureimage/furnibg.png) no-repeat center center/cover;
+    position: relative;
+}
+
+.heading{
+    position: absolute;
+    width: 100%;
+    height: 96%;
+    color: #393838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading h1{
+    position: absolute;
+    top:120px;
+    width: 550px;
+    height: fit-content;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Gill Sans", sans-serif;
+    letter-spacing: 1px;
+}
+.heading p{
+    position: absolute;
+    top:160;
+    width: 700px;
+    height: fit-content;
+    text-align: center;
+    font-size: 18px;
+}
+.heading button{
+    position: absolute;
+    top:340px;
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+
+.heading button i{
+    padding-left: 10px;
+}
+.heading button:hover{
+    background-color: black;
+    color: #fff ;
+}
+
+.small-img{
+    position: absolute;
+    top:535px;
+    left:20%;
+    width: 60%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.smallbox{
+    width: 100px;
+    height: 50px;
+    background-color: #e3e2e2;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    box-shadow: 5px 10px 8px #404040;
+}
+.smallbox img{
+    width:35px;
+    height: 30px;
+}
+.smallbox p{
+    font-size: 13px;
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 600;
+}
+.smallbox:hover{
+    background-color: #b4b4b4;
+}
+
+.living-room{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.living-room h1{
+    position: absolute;
+    top:160px;
+    font-size: 47px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.imgcont{
+    position: relative;
+    top:100px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.threeimg{
+    width: 33%;
+    height: 400px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    transition: all ease 0.4s;
+}
+.threeimg:hover{
+    box-shadow: 5px 10px 8px #404040;
+}
+.threeimg img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.threeimg i{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.threeimg h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.threeimg p{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+   
+.bed{
+    background: linear-gradient(to right, white 0%, transparent 100%),url(./furnitureimage/bed.png)no-repeat center center/cover;
+    width: 80%;
+    height: 500px;
+    position: relative;
+    margin-left: 20%;
+}
+
+.cont{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 40%;
+    left: -160px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.cont h1{
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.cont p{
+    margin-top: 20px;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cont i{
+    font-size: 10px;
+}
+.cont button{
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: all ease 0.4s;
+}
+.cont button:hover{
+    background-color: pink;
+
+}
+
+.morethree{
+    width: 50%;
+    height: 300px;
+    margin-left: 390px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.morethree .item1{
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    width: 35%;
+    height: 90%;
+    background-color: rgb(190, 190, 190);
+    z-index: 0;
+    border-radius: 10px;
+    transition: all ease 0.4s;
+}
+.morethree .item1 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.morethree .item1 h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+    padding-left: 10px;
+    text-align: center;
+}
+.morethree .item1 p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+    padding-left: 10px;
+    text-align: center;
+}
+.morethree .item1 i{
+    font-size: 10px;
+    padding-left: 10px;
+}
+.morethree .item1:hover{
+    z-index: 2;
+    width: 40%;
+    height: 100%;
+}
+.morethree .item2{
+    position: absolute;
+    left: 30%;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(229, 229, 229);
+    z-index: 1;
+    border-radius: 10px;
+    transition: all ease 0.4s;
+}
+
+.morethree .item2 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.morethree .item2 h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+    padding-left: 10px;
+    text-align: center;
+}
+.morethree .item2 p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+    padding-left: 10px;
+    text-align: center;
+}
+.morethree .item2 i{
+    font-size: 10px;
+    padding-left: 10px;
+}
+.morethree .item2:hover{
+    z-index: 2;
+    width: 40%;
+    height: 110%;
+}
+.morethree .item3{
+    position: absolute;
+    left: 60%;
+    width: 35%;
+    height: 90%;
+    top: 10%;
+    background-color: rgb(190, 190, 190);
+    z-index: 0;
+    border-radius: 10px;
+    transition: all ease 0.4s;
+}
+.morethree .item3 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.morethree .item3 h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+    text-align: center;
+}
+.morethree .item3 p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+    text-align: center;
+}
+.dotin{
+    text-align: center;
+    padding-left: 2px;
+}
+.morethree .item3 i{
+    font-size: 10px;
+    padding-left: 10px;
+    
+}
+.morethree .item3:hover{
+    z-index: 2;
+    width: 40%;
+    height: 100%;
+}
+
+.item1 img{
+    width: 40px;
+    height: 40px;
+    
+}
+.item2 img{
+    width: 40px;
+    height: 40px;
+    
+}.item3 img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.moreitem h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-top: 200px;
+    margin-left: 41%;
+}
+
+.moreitem p{
+    width: 600px;
+    height: 100px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 30%;
+    margin-top: 20px;
+    text-align: center;
+}
+.dotagain{
+    width: 100px;
+    height: 100px;
+    margin-left: 730px;
+    margin-top: 40px;
+}
+.dotagain i{
+    font-size: 10px;
+    padding: 2px;
+}
+.skybluediv{
+    width: 70%;
+    height: 500px;
+    background: linear-gradient(to left, rgb(255, 255, 255) 0%, transparent 100%),url(./furnitureimage/dinning.png)no-repeat center center/cover;
+    position: relative;
+}
+.skybluediv h1{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top:200px;
+    left:85%;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Gill Sans',sans-serif;
+    color: black;
+    text-align: center;
+}
+.skybluediv p{
+    position: absolute;
+    top:240px;
+    left:28%;
+    height: 100px;
+    width: 500px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Gill Sans',sans-serif;
+    margin-left: 57%;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+.skybluediv .dotnew{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top:350px;
+    left: 106%;
+}
+.skybluediv .dotnew i{
+    font-size: 10px;
+}
+.skybluediv button{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top:380px;
+    left: 105%;
+    border: 1px solid rgb(40, 35, 35);
+    border-radius: 20px;
+    transition: all ease 0.4s;
+}
+
+.skybluediv button:hover{
+    color: white;
+    background-color: black;
+}
+
+.lastsec{
+    width: 100%;
+    height: 670px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastsec h1{
+    position: absolute;
+    top:120px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.lastsec .imgcont{
+    position: relative;
+    top:100px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.lastsec .threeimg{
+    width: 33%;
+    height: 400px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    transition: all ease 0.4s;
+}
+.lastsec .threeimg:hover{
+    box-shadow: 5px 10px 8px #404040;
+}
+.lastsec .threeimg img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.lastsec .threeimg i{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.lastsec .threeimg h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.lastsec .threeimg p{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.last{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.last .imgcont{
+    position: relative;
+    top:0px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.last .threeimg{
+    width: 33%;
+    height: 400px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    transition: all ease 0.4s;
+}
+.last .threeimg:hover{
+    box-shadow: 5px 10px 8px #404040;
+}
+.last .threeimg img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.last .threeimg i{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.last .threeimg h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.last .threeimg p{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 20px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+
+@media (max-width:900px) {
+    nav{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content:space-between;
+        height: 12vw;
+        background-color: rgb(170, 170, 170);
+    }
+    header .logo{
+        width: 30%;
+        height: 100%;
+        padding: 2vw 4vw;
+        font-size: 6vw;
+        font-weight: 800;
+
+    }
+    header i{
+        width: 10%;
+        height: 100%;
+        display: block;
+        padding-left: 2vw;
+        padding: 3vw 6vw;
+        margin-right: 10px;
+        font-size: 6vw ;
+    }
+    .login{
+        display: none; 
+    }
+    .heading{
+        padding: 20px 10px;
+        position: relative;
+    }
+    
+    .heading h1{
+        position: absolute;
+        width: 80%;
+        height: 40%;
+        top:50px;
+        font-size: 12vw;
+    }
+    .heading p{
+        position: absolute;
+        width: 80%;
+        height: 23vw;
+        top: 60vw ;
+        padding: 6vw 2vw;
+        font-size: 3.5vw;
+    }
+    .small-img{
+        display: none;
+    }
+    .heading button{
+        position: absolute;
+        top:83vw;
+        width: 120px;
+        height: 30px;
+    }
+    .living-room{
+        width: 100%;
+        height: 350vw;
+        position: relative;
+    }
+    .living-room h1{
+        width: 80%;
+        height: 12vw;
+        
+        font-size: 6.2vw;
+        position: absolute;
+        top: 5vw;
+        padding-left: 0vw;
+        font-weight: 700;
+        text-align: center;
+    }
+    .living-room .imgcont{
+        position: absolute;
+        top: 18vw;
+        width: 100%;
+        height: 60vw;
+        display: block;
+    }
+    .imgcont .threeimg{
+        width: 80vw;
+        height: 100vw;
+        margin-left: 10vw;
+        margin-bottom: 10vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imgcont .threeimg img{
+        width: 100%;
+        height: 70%;
+    }
+    .threeimg h3{
+        text-align: center;
+        font-size: 6vw;
+        margin: 2vw 8vw;
+        padding: 0vw 3vw;
+        
+    }
+    .threeimg p{
+        text-align: center;
+        font-size: 6vw;
+    }
+    .bed{
+        height: 50vh;
+        width: 80%;
+        position: relative;
+    }
+    .cont {
+        width: 100vw;
+        height: 60vw;
+        position: absolute;
+        top:8vw;
+        left: -150px;
+        padding: 2vw 0vw;
+    }
+    .bed .cont h1{
+        font-size: 8vw;
+        margin-top: 2vw;
+
+    }
+    .bed .cont p{
+        margin-top: 1.5vw;
+        font-weight: 500;
+        width: 60vw;
+        height: 30vw;
+        margin-left: 3.8vw;
+        padding-left: 2.8vw;
+        padding-top: 1.4vw;
+        
+    }
+    .bed .cont button{
+        width: 20vw;
+    }
+    .moreitem{
+        width: 100%;
+        height: 30vw;
+        margin-top: 20vw;
+
+    }
+    .moreitem h1{
+        width: 80vw;
+        height: 13vw;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Gill Sans', sans-serif;
+        margin-top: 10vw;
+        margin-left: 20vw;
+        padding: 2vw 5vw;
+        font-size: 8vw;
+    }
+    .moreitem p{
+        width: 80vw;
+        height: 35vw;
+        margin-left: 2vw;
+        padding: 1vw 4vw;
+        position: absolute;
+        margin-top: 0vw;
+        left:8vw;
+        font-size: 3vw;
+    }
+   
+    .morethree{
+        width: 90%;
+        height: 50vw;
+        margin-left: 7vw;
+        margin-top: 10px;
+        position: relative;  
+    }
+    .morethree .item2 h3{
+        font-size:13px;
+        font-weight: 600;
+        font-family: 'Gill Sans', sans-serif;
+        padding-left: 10px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .morethree .item2 p{
+        font-size:14px;
+        font-weight: 700;
+    }
+    .morethree .item1 p{
+        font-size:14px;
+        font-weight: 700;
+    }
+    .morethree .item3 p{
+        font-size:14px;
+        font-weight: 700;
+    }
+    .morethree .item1 h3{
+        font-size:13px;
+        font-weight: 700;
+    }
+    .morethree .item3 h3{
+        font-size:15px;
+        font-weight: 700;
+    }
+    .dotin i{
+        font-size: 2px;
+    }
+    
+     .dotagain{
+        width: 60px;
+        height: 20px;
+        margin-left: 43.5%;
+        margin-top: 40px;
+    }
+    .skybluediv{
+        margin-top: 12vw;
+        width: 70%;
+        height: 500px;
+        background: linear-gradient(to left, rgb(255, 255, 255) 0%, transparent 100%),url(https://i.pinimg.com/736x/cb/b2/73/cbb27379601aad3c34693d991acba1b6.jpg)no-repeat center center/cover;
+        position: relative;
+    }
+    .skybluediv h1{
+        width: 200px;
+        height: 80px;
+        position: absolute;
+        top:100px;
+        left:68%;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Gill Sans',sans-serif;
+        color: black;
+        text-align: center;
+    }
+    .skybluediv p{
+        position: absolute;
+        top:180px;
+        left:20%;
+        height: 100px;
+        width: 160px;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Gill Sans',sans-serif;
+        margin-left: 57%;
+        padding-top: 0px;
+        text-align: center;
+        color: black;
+    }
+    .skybluediv .dotnew{
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top:310px;
+        left: 99%;
+    }
+    .skybluediv .dotnew i{
+        font-size: 6px;
+    }
+    .skybluediv button{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        top:350px;
+        left: 92%;
+        border: 1px solid rgb(40, 35, 35);
+        border-radius: 20px;
+        transition: all ease 0.4s;
+    }
+    
+    .lastsec{
+        width: 100%;
+        height: 80vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .lastsec h1{
+        position: absolute;
+        top:100px;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: 'Gill Sans', sans-serif;
+    }
+    .lastsec .imgcont{
+        position: relative;
+        top:230px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    
+    .lastsec .threeimg{
+    margin-left: 0px;
+    width: 25%;
+    height: 40vw;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    transition: all ease 0.4s;
+}
+.lastsec .threeimg:hover{
+    box-shadow: 5px 10px 8px #404040;
+}
+.lastsec .threeimg img{
+    width: 100%;
+    height: 70vw;
+    object-fit: cover;
+
+}
+
+.lastsec .threeimg i{
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.lastsec .threeimg h3{
+    width: 20vw;
+    height: 30vw;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 6vw;
+    margin-top: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+.lastsec .threeimg p{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.last{
+    width: 100%;
+    height: 60vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.last .imgcont{
+        position: relative;
+        top:20px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content:space-evenly;
+}
+.last .threeimg{
+    margin-left: 0px;
+    width: 25%;
+    height: 40vw;
+    background-color: rgb(229, 229, 229);
+    border-radius: 10px;
+    transition: all ease 0.4s;
+}
+.last .threeimg:hover{
+    box-shadow: 5px 10px 8px #404040;
+}
+.last .threeimg img{
+    width: 100%;
+    height: 70vw;
+    object-fit: cover;
+
+}
+
+.last .threeimg i{
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.last .threeimg h3{
+    width: 20vw;
+    height: 30vw;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 9vw;
+    margin-top: 2px;
+    text-align: center;
+}
+.last .threeimg p{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Gill Sans', sans-serif;
+    margin-left: 7px;
+    margin-top: 0px;
+    
+}
+}
+ 
